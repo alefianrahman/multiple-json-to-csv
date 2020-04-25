@@ -1,2 +1,2 @@
 # multiple-json-to-csv
-This function will help converting multiple JSON files into a CSV file
+This function will converting multiple JSON files into a CSV file
