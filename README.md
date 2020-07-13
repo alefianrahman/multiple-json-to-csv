@@ -8,7 +8,7 @@ A file converter that converts multiple JSON files into a CSV file.
 2. Go to the ```script``` folder in the ```multiple-json-to-csv``` directory.
 3. The script ```multiple_json_to_csv.py``` in ```script``` folder receives 2 arguments, the path to JSON files and the output filename. The command format in terminal:\
 ```python multiple_json_to_csv.py /path/to/json/files output_filename.csv```
-4. As a demonstration, we can test the script using the sample files in the ```samples``` folder. Suppose we want to combine all JSON files in the ```samples``` folder and generate a CSV file named ```output.csv```. In this case, we have cloned the repository in the home directory so that the path will start with ```~```. To combine the JSON files, we just need to type this command in terminal in the ```script``` folder: \
+4. As a demonstration, we can test the script using the sample files in the ```samples``` folder. Suppose we want to combine all JSON files in the ```samples``` folder and generate a CSV file named ```output.csv```. In this case, we have cloned the repository in the ```HOME``` directory so that the path will start with ```~```. To combine the JSON files, we just need to type this command in terminal in the ```script``` folder: \
 ```python multiple_json_to_csv.py ~/multiple-json-to-csv/samples/ output.csv``` 
 
 ## Guidance on the JSON Files
