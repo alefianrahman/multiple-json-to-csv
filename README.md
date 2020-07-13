@@ -2,13 +2,13 @@
 A file converter that converts multiple JSON files into a CSV file. 
 
 ## Tutorial: How to Use the Script
-1. Clone the GitHub repository into your local machine/terminal.\
+1. Clone this GitHub repository into your local machine using ```git``` command: \
 ```git clone https://github.com/alefianrahman/multiple-json-to-csv.git``` (If using HTTPS)\
 ```git clone git@github.com:alefianrahman/multiple-json-to-csv.git``` (If using SSH)
 2. Go to the ```script``` folder in the ```multiple-json-to-csv``` directory.
-3. The script ```multiple_json_to_csv.py``` receives 2 arguments, the path to JSON files and the output filename. The command format in terminal:\
+3. The script ```multiple_json_to_csv.py``` in ```script``` folder receives 2 arguments, the path to JSON files and the output filename. The command format in terminal:\
 ```python multiple_json_to_csv.py /path/to/json/files output_filename.csv```
-4. As a demonstration, we can try to test the script by using the sample files in the ```samples``` folder. Suppose we want to combine all JSON files in the ```samples``` folder and generate a CSV file named ```output.csv```. In this case, we have cloned the repository in the home directory so that the path will start with ```~```. To combine the JSON files, we just need to type this command in terminal in the ```script``` folder: \
+4. As a demonstration, we can test the script using the sample files in the ```samples``` folder. Suppose we want to combine all JSON files in the ```samples``` folder and generate a CSV file named ```output.csv```. In this case, we have cloned the repository in the home directory so that the path will start with ```~```. To combine the JSON files, we just need to type this command in terminal in the ```script``` folder: \
 ```python multiple_json_to_csv.py ~/multiple-json-to-csv/samples/ output.csv``` 
 
 ## Guidance on the JSON files
@@ -26,7 +26,7 @@ File 1
 File 2 
 ```
 [{
-  "continent": "Europe"
+  "continent": "Europe",
   "country": "UK", 
   "city": "London", 
   "population": 8908081, 
@@ -35,8 +35,7 @@ File 2
 ```
 The JSON files can also consist more than one records as long as they have the same field name like:
 ```
-[
-{
+[{
   "continent": "Africa", 
   "country": "Egypt", 
   "city": "Cairo", 
@@ -47,10 +46,9 @@ The JSON files can also consist more than one records as long as they have the s
   "continent": "Europe", 
   "country": "Belgium", 
   "city": "Brussels", 
-  "population": 174883", 
+  "population": 174883, 
   "updated_at": "2020-03-02 00:00:00"
-}
-]
+}]
 ```
 Note: all the above JSON files are just samples and might not represent the actual data. 
 
