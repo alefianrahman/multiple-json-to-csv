@@ -33,7 +33,7 @@ File 2
   "updated_at": "2020-05-21 19:00:00"
 }]
 ```
-The JSON files can also consist more than one records as long as they have the same field name like:
+The JSON files can also consist more than one records as long as they have the same field name. For example:
 ```
 [{
   "continent": "Africa", 
