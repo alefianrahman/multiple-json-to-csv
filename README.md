@@ -1,7 +1,7 @@
 # Multiple JSON to CSV Converter
 A file converter that converts multiple JSON files into a CSV file. 
 
-## Tutorial: How to Use the Script. 
+## Tutorial: How to Use the Script
 1. Clone the GitHub repository into your local machine/terminal.\
 ```git clone https://github.com/alefianrahman/multiple-json-to-csv.git``` (If using HTTPS)\
 ```git clone git@github.com:alefianrahman/multiple-json-to-csv.git``` (If using SSH)
