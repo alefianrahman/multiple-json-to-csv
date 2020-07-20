@@ -9,8 +9,8 @@ class MultipleJSONToCSV:
 		"""
 		Initialize object's attributes.
 
-		:param str path: Path to JSON files.
-		:param str output: Output file name.
+		:param str source_path: Path to JSON files.
+		:param str destination_path: Output path.
 		"""
 		self.source_path = source_path
 		self.destination_path = destination_path
